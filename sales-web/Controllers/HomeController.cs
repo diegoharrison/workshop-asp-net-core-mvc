@@ -20,6 +20,10 @@ namespace sales_web.Controllers {
         }
 
         public IActionResult Privacy() {
+            ViewData["message"] = "mensagem teste";
+            ViewData["email"] = "diegoharrisonsm@gmail.com";
+
+
             return View();
         }
 
